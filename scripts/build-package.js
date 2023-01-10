@@ -1,5 +1,6 @@
 const DIR_PACKAGE = "package";
-const DIR_PATTERNS = "build/patterns";
+const DIR_BUILD = "build";
+const DIR_PATTERNS = "patterns";
 const DIR_SCRIPTS = "scripts";
 
 const aliases = [
@@ -16,16 +17,16 @@ const aliases = [
 const projectFiles = [
   "CHANGELOG",
   "export-contract.js",
-  "build/hyphen.js",
+  `${DIR_BUILD}/hyphen.js`,
   "LICENSE",
   "README.md"
 ];
 
-const makeAlias = locale => `module.exports = require("../build/${locale}/index.js");
+const makeAlias = locale => `module.exports = require("../${locale}/index.js");
 `;
 const makeExport = locale =>
   `module.exports = require("../export-contract.js")(
-  require("../build/patterns/${locale}.js")
+  require("../patterns/${locale}.js")
 );
 `;
 
@@ -74,7 +75,7 @@ copyDir(pathTo(DIR_SCRIPTS, DIR_PACKAGE), pathTo(DIR_PACKAGE));
 /******************************************************************************/
 console.log(`Copying patterns files`);
 
-copyDir(pathTo(DIR_PATTERNS), pathTo(DIR_PACKAGE, DIR_PATTERNS));
+copyDir(pathTo(`${DIR_BUILD}/${DIR_PATTERNS}`), pathTo(DIR_PACKAGE, DIR_PATTERNS));
 /******************************************************************************/
 console.log(`Copying project files`);
 

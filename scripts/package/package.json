@@ -1,6 +1,6 @@
 {
   "name": "hyphen-minified",
-  "version": "1.6.4",
+  "version": "1.6.5",
   "description": "Text hyphenation in Javascript. (minified)",
   "repository": {
     "type": "git",

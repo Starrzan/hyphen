@@ -1,5 +1,5 @@
 const DIR_PACKAGE = "package";
-const DIR_PATTERNS = "patterns";
+const DIR_PATTERNS = "build/patterns";
 const DIR_SCRIPTS = "scripts";
 
 const aliases = [
@@ -16,16 +16,16 @@ const aliases = [
 const projectFiles = [
   "CHANGELOG",
   "export-contract.js",
-  "hyphen.js",
+  "build/hyphen.js",
   "LICENSE",
   "README.md"
 ];
 
-const makeAlias = locale => `module.exports = require("../${locale}/index.js");
+const makeAlias = locale => `module.exports = require("../build/${locale}/index.js");
 `;
 const makeExport = locale =>
   `module.exports = require("../export-contract.js")(
-  require("../patterns/${locale}.js")
+  require("../build/patterns/${locale}.js")
 );
 `;
 

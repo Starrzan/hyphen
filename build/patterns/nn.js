@@ -1,0 +1,1 @@
+!function(e,t){"function"==typeof define&&define.amd?define([],t):"object"==typeof module&&module.exports?module.exports=t():e.hyphenationPatternsNn=t()}(this,(function(){return{patterns:[],exceptions:["att-en-de","bet-re",""]}}));

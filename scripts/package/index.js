@@ -1,1 +1,1 @@
-module.exports = require("./hyphen.js");
+module.exports = require("./build/hyphen.js");

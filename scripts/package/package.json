@@ -1,10 +1,10 @@
 {
   "name": "hyphen",
   "version": "1.6.4",
-  "description": "Text hyphenation in Javascript.",
+  "description": "Text hyphenation in Javascript. (minified)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ytiurin/hyphen"
+    "url": "git+https://github.com/starrzan/hyphen"
   },
   "keywords": [
     "hyphen",

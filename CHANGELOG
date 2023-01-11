@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.7] - 2023-01-11
+### Changed
+- Updated available languages in readme
+
+## [1.6.6] - 2023-01-11
+### Removed
+- Remove non standard languages from tex folder
+### Added
+- Add patterns build scripts to package.json
+
+## [1.6.5] - 2023-01-10
+### Added
+- Add minification script to package.json that minifies files inside build folder, which is then used when the package is created
+
 ## [1.6.4] - 2021-04-04
 ### Fixed
 - Handle the edge case of a word “constructor” being interpreted as a JavaScript keyword. - by [@arseni-mourzenko](https://github.com/arseni-mourzenko)

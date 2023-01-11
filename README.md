@@ -83,35 +83,35 @@ hyphenate("Options", { debug: true, hyphenChar: "%", minWordLength: 5 });
 - `hyphen/bg` Bulgarian
 - `hyphen/bn` Bengali
 - `hyphen/ca` Catalan
-- `hyphen/cop` Coptic
+- ~~`hyphen/cop` Coptic~~
 - `hyphen/cs` Czech
 - `hyphen/cu` Church Slavonic
 - `hyphen/cy` Welsh
 - `hyphen/da` Danish
 - `hyphen/de-1901` German, traditional spelling
-- `hyphen/de-1996` German, reformed spelling
-- `hyphen/de-CH-1901` German, traditional Swiss spelling
+- ~~`hyphen/de-1996` German, reformed spelling~~
+- ~~`hyphen/de-CH-1901` German, traditional Swiss spelling~~
 - `hyphen/de` aliases `hyphen/de-1996`
 - `hyphen/el-monoton` Modern Greek, monotonic spelling
-- `hyphen/el-polyton` Modern Greek, polytonic spelling
+- ~~`hyphen/el-polyton` Modern Greek, polytonic spelling~~
 - `hyphen/el` aliases `hyphen/el-monoton`
-- `hyphen/en-gb` English, British spelling
+- ~~`hyphen/en-gb` English, British spelling~~
 - `hyphen/en-us` English, American spelling
 - `hyphen/en` aliases `hyphen/en-us`
 - `hyphen/es` Spanish
 - `hyphen/et` Estonian
-- `hyphen/ethi` aliases `hyphen/mul-ethi`
+- ~~`hyphen/ethi` aliases `hyphen/mul-ethi`~~
 - `hyphen/eu` Basque
 - `hyphen/fi` Finnish
 - `hyphen/fr` French
-- `hyphen/fur` Friulan
+- ~~`hyphen/fur` Friulan~~
 - `hyphen/ga` Irish
 - `hyphen/gl` Galician
-- `hyphen/grc` Ancient Greek
+- ~~`hyphen/grc` Ancient Greek~~
 - `hyphen/gu` Gujarati
 - `hyphen/hi` Hindi
 - `hyphen/hr` Croatian
-- `hyphen/hsb` Upper Sorbian
+- ~~`hyphen/hsb` Upper Sorbian~~
 - `hyphen/hu` Hungarian
 - `hyphen/hy` Armenian
 - `hyphen/ia` Interlingua
@@ -119,19 +119,19 @@ hyphenate("Options", { debug: true, hyphenChar: "%", minWordLength: 5 });
 - `hyphen/is` Icelandic
 - `hyphen/it` Italian
 - `hyphen/ka` Georgian
-- `hyphen/kmr` Kurmanji, Northern Kurdish
+- ~~`hyphen/kmr` Kurmanji, Northern Kurdish~~
 - `hyphen/kn` Kannada
-- `hyphen/la-x-classic` Classical Latin
-- `hyphen/la-x-liturgic` Liturgical Latin
+- ~~`hyphen/la-x-classic` Classical Latin~~
+- ~~`hyphen/la-x-liturgic` Liturgical Latin~~
 - `hyphen/la` Latin
 - `hyphen/lt` Lithuanian
 - `hyphen/lv` Latvian
 - `hyphen/ml` Malayalam
-- `hyphen/mn-cyrl-x-lmc` Mongolian, Cyrillic script, alternative patterns
+- ~~`hyphen/mn-cyrl-x-lmc` Mongolian, Cyrillic script, alternative patterns~~
 - `hyphen/mn-cyrl` Mongolian, Cyrillic script
 - `hyphen/mn` aliases `hyphen/mn-cyrl`
 - `hyphen/mr` Marathi
-- `hyphen/mul-ethi` Multiple languages using the Ethiopic scripts
+- ~~`hyphen/mul-ethi` Multiple languages using the Ethiopic scripts~~
 - `hyphen/nb` Norwegian Bokmål, bokmål, norsk bokmål
 - `hyphen/nl` Dutch
 - `hyphen/nn` Norwegian Nynorsk, nynorsk
@@ -141,14 +141,14 @@ hyphenate("Options", { debug: true, hyphenChar: "%", minWordLength: 5 });
 - `hyphen/pa` Panjabi, Punjabi
 - `hyphen/pi` Pāli
 - `hyphen/pl` Polish
-- `hyphen/pms` Piedmontese
+- ~~`hyphen/pms` Piedmontese~~
 - `hyphen/pt` Portuguese
 - `hyphen/rm` Romansh
 - `hyphen/ro` Romanian
 - `hyphen/ru` Russian
 - `hyphen/sa` Sanskrit
 - `hyphen/sh-cyrl` Serbocroatian, Cyrillic script
-- `hyphen/sh-latn` Serbocroatian, Latin script
+- ~~`hyphen/sh-latn` Serbocroatian, Latin script~~
 - `hyphen/sh` aliases `hyphen/sh-cyrl`
 - `hyphen/sk` Slovak
 - `hyphen/sl` Slovenian

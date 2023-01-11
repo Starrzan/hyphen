@@ -3,6 +3,7 @@
   "description": "Development environment for the lib.",
   "scripts": {
     "build:docs": "cd ./storybook && npm run build && cd .. && cp ./01.png ./docs",
+    "build:patterns": "node ./scripts/build-patterns.js",
     "build:package": "node ./scripts/build-package.js",
     "build": "node ./scripts/build-src.js && npm run minifyJS",
     "minifyJS": "npx uglifyjs-folder patterns -eo build/patterns --extension .js && npx uglify-js hyphen.js --compress --mangle --warn --output build/hyphen.js",

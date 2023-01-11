@@ -7,7 +7,6 @@ const aliases = [
   ["de", "de-1996"],
   ["el", "el-monoton"],
   ["en", "en-us"],
-  ["ethi", "mul-ethi"],
   ["mn", "mn-cyrl"],
   ["sh", "sh-cyrl"],
   ["sr", "sr-cyrl"],
